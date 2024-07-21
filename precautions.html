@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Precautions</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #007bff; /* Blue background color */
+            color: #000; /* Black text color for better contrast */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh; /* Full viewport height */
+        }
+        .precautions-container {
+            max-width: 1000px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* White background with opacity */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #007bff; /* Blue text color for headings */
+            width: 100%; /* Full width to center align the heading */
+        }
+        .precaution-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            max-width: 300px;
+            flex: 1;
+        }
+        .precaution-item img {
+            max-width: 100px;
+            margin-bottom: 20px;
+        }
+        .precaution-text {
+            text-align: center;
+        }
+        .precaution-text h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .precaution-text p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="precautions-container">
+        <h1>PRECAUTIONS</h1>
+
+        <div class="precaution-item">
+            <img src="social-distance-icon.png" alt="Social Distance Icon">
+            <div class="precaution-text">
+                <h2>Social Distance</h2>
+                <p>Maintain social distance to protect yourself and others.</p>
+            </div>
+        </div>
+
+        <div class="precaution-item">
+            <img src="sanitize-icon.png" alt="Sanitize Icon">
+            <div class="precaution-text">
+                <h2>Sanitize</h2>
+                <p>Regularly sanitize your hands to protect against germs.</p>
+                <p>Protect yourself from invisible threats.</p>
+            </div>
+        </div>
+
+        <div class="precaution-item">
+            <img src="wear-mask-icon.png" alt="Wear Mask Icon">
+            <div class="precaution-text">
+                <h2>Wear Mask</h2>
+                <p>Wear a mask to protect yourself and others from COVID-19.</p>
+                <p>Protect yourself and others from respiratory droplets.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
