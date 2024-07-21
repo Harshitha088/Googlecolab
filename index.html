@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Information</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('covid19-background.jpg'); /* Replace with your COVID-19 image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Full viewport height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative; /* Ensure relative positioning for absolute children */
+        }
+        .button-container {
+            position: absolute;
+            top: 20px; /* Adjust top position as needed */
+            right: 20px; /* Adjust right position as needed */
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            text-decoration: none;
+            color: #333;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        h1 {
+            color: #fff;
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <h1>SMART ASSISTANCE FOR COVID PROTECTION</h1>
+    <div class="button-container">
+        <a href="about.html" class="button">ABOUT</a>
+        <a href="precautions.html" class="button">PRECAUTIONS</a>
+        <a href="vaccinations.html" class="button">VACCINATIONS</a>
+        <a href="predict.html" class="button">PREDICT</a>
+    </div>
+</body>
+</html>
